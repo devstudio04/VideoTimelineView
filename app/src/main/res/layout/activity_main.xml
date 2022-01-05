@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:controller_layout_id="@layout/exo_controller"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/leftProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/rightProgress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <com.nightcoder.mobile.timeline.TimelineView
+        android:id="@+id/timeLineView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner_4dp" />
+
+
+    <Button
+        android:id="@+id/select_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Select Video" />
+
+    <RadioGroup
+        android:id="@+id/modeGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/trimMode"
+            android:text="Trim Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/cutMode"
+            android:text="Trim Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+
+</LinearLayout>

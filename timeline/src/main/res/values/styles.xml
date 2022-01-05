@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimelineView">
+        <attr name="left_thumb_color" format="color"/>
+        <attr name="progress_thumb_color" format="color"/>
+        <attr name="right_thumb_color" format="color"/>
+        <attr name="thumb_width" format="dimension"/>
+        <attr name="thumb_dimension" format="float"/>
+    </declare-styleable>
+</resources>

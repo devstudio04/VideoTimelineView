@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <ImageButton
+        android:id="@id/exo_play"
+        style="@style/ExoMediaButton.Play"
+        app:tint="@color/white"
+        android:contentDescription="cd" />
+
+    <ImageButton
+        android:id="@id/exo_pause"
+        android:contentDescription="cd"
+        style="@style/ExoMediaButton.Pause"
+        app:tint="@color/white" />
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="horizontal"
+         android:paddingTop="4dp">
+
+         <ImageButton
+             android:id="@id/exo_prev"
+             style="@style/ExoMediaButton.Previous"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_rew"
+             style="@style/ExoMediaButton.Rewind"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_shuffle"
+             app:tint="?colorPrimaryDark"
+             style="@style/ExoMediaButton"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_repeat_toggle"
+             style="@style/ExoMediaButton"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_play"
+             style="@style/ExoMediaButton.Play"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_pause"
+             style="@style/ExoMediaButton.Pause"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_ffwd"
+             style="@style/ExoMediaButton.FastForward"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_next"
+             style="@style/ExoMediaButton.Next"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+         <ImageButton
+             android:id="@id/exo_vr"
+             style="@style/ExoMediaButton.VR"
+             app:tint="?colorPrimaryDark"
+             app:tintMode="src_in" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="4dp"
+         android:gravity="center_vertical"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@id/exo_position"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:includeFontPadding="false"
+             android:paddingLeft="4dp"
+             android:paddingRight="4dp"
+             android:textColor="#ff323232"
+             android:textSize="14sp"
+             android:textStyle="bold" />
+
+         <com.google.android.exoplayer2.ui.DefaultTimeBar
+             android:id="@id/exo_progress"
+             android:layout_width="0dp"
+             android:layout_height="26dp"
+             android:layout_weight="1"
+             app:played_color="?colorPrimaryDark"
+             app:unplayed_color="#fff" />
+
+         <TextView
+             android:id="@id/exo_duration"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:includeFontPadding="false"
+             android:paddingLeft="4dp"
+             android:paddingRight="4dp"
+             android:textColor="#ff323232"
+             android:textSize="14sp"
+             android:textStyle="bold" />
+
+     </LinearLayout>-->
+
+</LinearLayout>
