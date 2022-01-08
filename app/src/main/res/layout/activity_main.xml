@@ -38,7 +38,7 @@
             android:gravity="end" />
     </LinearLayout>
 
-    <com.nightcoder.mobile.timeline.TimelineView
+    <com.ariful.mobile.timeline.TimelineView
         android:id="@+id/timeLineView"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -61,11 +61,12 @@
         <RadioButton
             android:id="@+id/trimMode"
             android:text="Trim Mode"
+            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
             android:id="@+id/cutMode"
-            android:text="Trim Mode"
+            android:text="Cut Mode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>

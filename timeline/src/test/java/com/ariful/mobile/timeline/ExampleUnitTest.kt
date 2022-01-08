@@ -1,4 +1,4 @@
-package com.nightcoder.mobile.timeline
+package com.ariful.mobile.timeline
 
 import org.junit.Test
 

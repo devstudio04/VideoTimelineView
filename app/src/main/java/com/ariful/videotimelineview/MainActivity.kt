@@ -3,10 +3,9 @@ package com.ariful.videotimelineview
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.nightcoder.mobile.timeline.TimelineView
+import com.ariful.mobile.timeline.TimelineView
 import android.content.Intent
 import android.util.Log
-import android.app.Activity
 import android.net.Uri
 import android.os.Handler
 import android.os.Looper
@@ -17,9 +16,6 @@ import android.widget.TextView
 
 import androidx.activity.result.ActivityResultCallback
 
-import androidx.activity.result.contract.ActivityResultContracts
-
-import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import com.google.android.exoplayer2.*
 import com.google.android.exoplayer2.ui.PlayerView

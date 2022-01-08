@@ -1,4 +1,4 @@
-package com.nightcoder.mobile.timeline
+package com.ariful.mobile.timeline
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

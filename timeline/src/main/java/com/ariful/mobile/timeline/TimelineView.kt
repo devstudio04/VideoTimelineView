@@ -1,4 +1,4 @@
-package com.nightcoder.mobile.timeline
+package com.ariful.mobile.timeline
 
 import android.annotation.SuppressLint
 import android.content.Context
