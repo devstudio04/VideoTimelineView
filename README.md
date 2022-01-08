@@ -1,6 +1,8 @@
 # VideoTimelineView
 A TimelineView implementation for video cut and trim operation
 
+![Preview](https://github.com/cse-ariful/VideoTimelineView/blob/master/preview.gif?raw=true)
+
 
 #Usage
 
